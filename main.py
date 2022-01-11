@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
   while True:
 
-    print("Please enter your guess with known correct letters and full stops for incorrect letters or letters in the wrong place")
+    print("\nPlease enter your guess with known correct letters and full stops for incorrect letters or letters in the wrong place")
     inputGuess = input("> ")
 
     print("\nPlease enter letters known not to be in the word")
