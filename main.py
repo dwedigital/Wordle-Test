@@ -21,7 +21,6 @@ def guessWord(guess):
     if re.match(rf"{guess}",i):
       possibles.append(i)
 
-  print(len(knownLetters))
   # Out of those words which have all the known letters
   for index, word in enumerate(possibles):
     test = 0
