@@ -70,7 +70,9 @@ if __name__ == "__main__":
 
     print("\nEnter letters known to be in the word but wrong location")
     inputLettersInWord = input()
-    for i in inputLettersInWord:
-      knownLetters.append(i.lower())
+    if len(inputLettersInWord)>0:
+        
+      for i in inputLettersInWord:
+        knownLetters.append(i.lower())
 
     guessWord(inputGuess)
