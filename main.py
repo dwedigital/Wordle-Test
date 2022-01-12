@@ -3,9 +3,9 @@ import re
 
 words = set()
 # Only add letters that are known and '.' for unknown or incorrect (placement)
-guess = ".rin."
-knownLetters = ['d']
-incorrectLetters = ['a','e','u','g']
+guess = "....."
+knownLetters = ['r','o','a','v']
+incorrectLetters = ['l','e','n']
 # Pattern is not currently in use but was for regex
 pattern = "|".join(incorrectLetters)
 possibles = []
